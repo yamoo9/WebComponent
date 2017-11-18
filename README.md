@@ -308,7 +308,7 @@ connectedCallback() {
 템플릿, 스타일, 스크립트 코드를 캡슐화 하는 기능을 가지고 있어 HTML 문서의 DOM에서 분리할 수 있습니다.
 웹 컴포넌트에 연결하여 사용하는 방법이 아니더라도 Shadow DOM 만 따로 사용하는 것도 가능합니다.
 
-<img src="../../ASSETS/shadowDOM.png" alt="Shadow DOM"><br>
+<img src="./_/shadowDOM.png" alt="Shadow DOM" width="500"><br>
 > shadow host는 요소, Shadow DOM Subtrees는 Shadow DOM을 말합니다.
 
 Shadow DOM은 반드시 이미 존재하는 요소(HTML 파일 내에 사용된 요소)에 추가해야 합니다.
