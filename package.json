@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test-server": "http-server -o -a localhost -p 8888"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}

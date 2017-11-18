@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>웹 컴포넌트 DEMO</title>
+    <link rel="import" href="/components/Y9Card/template.html">
+  </head>
+
+  <body>
+
+    <y9-card data-id="9"></y9-card>
+    <y9-card data-id="9"></y9-card>
+    <y9-card data-id="9"></y9-card>
+    <y9-card data-id="9"></y9-card>
+
+    <script>
+      (function (global) {
+        'use strict';
+
+        var document            = global.document;
+        var is_support_register = 'registerElement' in document;
+        var is_support_import   = 'import' in document.createElement('link');
+        var is_support_template = 'content' in document.createElement('template');
+
+        if ( !is_support_register || !is_support_import || !is_support_template) {
+          var polyfill = document.createElement('script');
+          polyfill.src = 'https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.0.2/webcomponents-lite.js';
+          document.body.appendChild(polyfill);
+        }
+
+      })(window);
+    </script>
+
+  </body>
+
+</html>

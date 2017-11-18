@@ -1,0 +1,23 @@
+.y9-card__container {
+  display: inline-block;
+  width: 30%;
+  margin: 3px;
+  border: 1px solid rgb(208, 70, 70);
+  font-family: Helvetica;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.y9-card__container:hover {
+  box-shadow: 3px 3px 3px;
+}
+
+.y9-card__content {
+  display: none;
+}
+
+.y9-card__details-button {
+  margin-bottom: 8px;
+  padding: 6px;
+  background-color: #dedede;
+}
